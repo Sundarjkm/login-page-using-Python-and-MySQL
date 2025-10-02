@@ -1,5 +1,8 @@
-# User Credentials
-host = 'localhost'
-user = 'root'
-password = 'root@123'
-database = 'student_database'
+import mysql.connector
+
+db = mysql.connector.connect(
+    host="localhost",
+    user="pythonuser",
+    password="yourpassword",
+    database="your_database_name"
+)
